@@ -8,5 +8,6 @@ Merge: Takes the changes from one branch in the same repository and applies them
 Checkout: Checks out of the repository to the $GITHUB_WORKSPACE so the workflow can access the repository.            
 Push: sends committed changes to a remote repository on GitHub. Useful for when a user changes something locally they may want to push them so others can access those changes.         
 Pull: A user fetches in changes and merges them. Useful for updating local copies so other people are up to date with their copies.   
-Remote Add/Remove/Show: The version of something on a server that can be connected to other clones so they can be synced.
-Status: part of a status check which is an external process that runs each commit in a repository.
+Remote Add/Remove/Show: The version of something on a server that can be connected to other clones so they can be synced.     
+Status: part of a status check which is an external process that runs each commit in a repository.        
+Master Branch: The default branch in a repository. Used as the main branch for projects.
