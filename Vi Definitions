@@ -1,0 +1,24 @@
+cd
+~
+The cd command is used to change the current directory in Linux or other Unix-based operating systems.
+
+cd's syntax is:
+  cd [option] [directory]
+
+For example, one can change the current directory, regardless of where it is on the system to the root directory by a forward slash:
+  cd /
+  
+Also, the following would change the current directory, regardless of its location, to the /usr/sbin:
+  cd /usr/sbin
+ 
+Furthermore, if a user currently in the directory /usr/local/share/man/ desired to change to the directory /usr/local/share/man/man2,
+they could input:
+  cd /usr/local/share/man/man2
+  
+But one can also use the relative pathname to create a much shorter syntax to reach the same destintion:
+  cd man2
+
+
+
+
+
