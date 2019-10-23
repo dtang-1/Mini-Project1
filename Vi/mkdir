@@ -1,0 +1,15 @@
+mkdir
+
+~
+Mkdir command in Linux allows the user to create directories.
+The comand can create multiple directories at once as well as set the permissions for the directories.
+
+The syntax for mkdir is:
+  mkdir [options...] [directories ...]
+  
+For example, if you excute the following commnad:
+  mkdir -p first/second/third
+
+If the first and second directories do not exist the "-p" option will create these directories for us.
+If we do note use the -p option and the first and second directory does not exits, we will get the following error message:
+  
