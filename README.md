@@ -1,7 +1,13 @@
 gitFlow definitions:                   
 Repository: The most basic element of GitHub containing all the files for a project and contains revision history. For example, a repository would be used to create and store a project and it's files such as this project.               
+To create a repository, click on the + icon at the top right near your profile and click "New repository." From there you can give it a name and create a new repository.          
+                          
 Clone: A copy of a repository stored on a computer rather than a server and allows a user to edit files on this local copy without being online. Useful for working on projects when in a location without internet.         
+To clone a project, navigate to under the repository name and click "Clone or download" and open Git Bash. Change the current working directory to the location you want to cloned repository to be. From there, type "git clone" and paste the url that would be copied from cloning.        
+                       
 Fork: A copy of another user's repository on your account that you can freely make changes to without affecting the original repository. For example, other members in a group project would fork their own copies of the main project to edit.     
+To fork a project, simply click on "fork" in the top right.      
+          
 Branch: A parallel version of a repository that is contained within the repository but does not affect the master branch which allows a user to work freely without affecting the live version. Useful for projects that require multiple people to edit the project without directly affecting the master branch. Also allows for users to experiement with variations of format.         
 Commit: An individual change to a file similar to saving a file but more organzied because commits contains info on who did what when. Commits are very important when editing and saving files in a repository.            
 Merge: Takes the changes from one branch in the same repository and applies them to another usually using a pull request. Merges are often used to combine other people's work in a project into a master branch.                
