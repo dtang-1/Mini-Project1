@@ -1,0 +1,21 @@
+history
+
+~
+The history command keeps a list of all the other commands that have been run from that terminal session.
+It allows you to replay or reuse those commands instead of retyping them.
+
+The syntax for history is:
+  $ history
+
+The following is a example response the program returns:
+  1  clear
+  2  ls -al
+  3  sudo dnf update -y
+  4  history
+1-4 represents the first 4 commands that was excuted in the session.
+  
+For example, if you wanted to prompt the command shell to rerun ine 3 of the history list, 
+you would execute the following command:
+  $ !3
+  
+ 
