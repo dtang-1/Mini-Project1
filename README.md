@@ -18,8 +18,14 @@ Merge: Takes the changes from one branch in the same repository and applies them
 To merge, Open the terminal, change the current working directory to your local project and check the branch you wish to merge to. If there any conflicts, resolve them before merging.        
          
 Checkout: Checks out of the repository to the $GITHUB_WORKSPACE so the workflow can access the repository.            
+To checkout, click "clone or download" and click "Clone with HTTPS." From there, open Git Bash to change the current working directory to where you want the cloned directory and type Git Clone and paste.        
+                
 Push: sends committed changes to a remote repository on GitHub. Useful for when a user changes something locally they may want to push them so others can access those changes.         
+To push, use the command "git push" to push commits made on your local branch to a remote repository.        
+           
 Pull: A user fetches in changes and merges them. Useful for updating local copies so other people are up to date with their copies.   
 Remote Add/Remove/Show: The version of something on a server that can be connected to other clones so they can be synced.     
+To pull, click on "pull request" and pick the branch you wish to merge and add a title/description.       
+          
 Status: part of a status check which is an external process that runs each commit in a repository.        
 Master Branch: The default branch in a repository. Used as the main branch for projects.
