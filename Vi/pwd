@@ -1,0 +1,9 @@
+pwd
+
+~
+pwd stands for Print Working Directory. It prints the path of the working directory.
+The pwd command has two flags:
+  pwd -L: Prints the symbolic path.
+  pwd -P: Prints the actual path.
+  
+The default behavior of Built-in pwd is same as pwd -L, and the default behavior of /bin/pwd is same as pwd -P.
