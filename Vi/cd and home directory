@@ -18,8 +18,16 @@ they could input:
 But one can also use the relative pathname to create a much shorter syntax to reach the same destintion:
   cd man2
   
+
+home directory
+~
+A home directory (a.k.a. login directory), is the directory that serves as the repository for a user's personal files,
+directories and programs. It is also the directory that a user is first in after logging into the system.
+
+A home directory is created automatically for every ordinary user in the directory called /home.
+A standard subdirectory of the root directory, /home has the sole purpose of containing users' home directories.
+
+You can return to the home directory automatically thought this input:
+  cd
+  
  
-
-
-
-
