@@ -1,0 +1,17 @@
+mv
+
+~
+mv stands for move.
+mv is used to move one or more files or directories from one place to another. 
+mv has two functions:
+  It renames a file or folder
+  It moves group of fikes to different directory
+
+The syntax for mv is:
+  mv [Option] source destination
+
+For example, you have 5 fimes named a.txt, b.txt and so on till e.txt.
+In order to change a.txt to a file name that doesnt exist (abc.txt), we will create the following command:
+  mv a.txt abc.txt
+  
+  
