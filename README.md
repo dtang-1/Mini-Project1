@@ -24,8 +24,10 @@ Push: sends committed changes to a remote repository on GitHub. Useful for when 
 To push, use the command "git push" to push commits made on your local branch to a remote repository.        
            
 Pull: A user fetches in changes and merges them. Useful for updating local copies so other people are up to date with their copies.   
+To pull, click on "pull request" and pick the branch you wish to merge and add a title/description.        
+       
 Remote Add/Remove/Show: The version of something on a server that can be connected to other clones so they can be synced.     
-To pull, click on "pull request" and pick the branch you wish to merge and add a title/description.       
           
 Status: part of a status check which is an external process that runs each commit in a repository.        
+        
 Master Branch: The default branch in a repository. Used as the main branch for projects.
